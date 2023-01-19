@@ -24,7 +24,7 @@ export default function FormPage() {
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full lg:w-auto">
               <a href="#">
-                <span className="sr-only">Workflow</span>
+                <span className="sr-only">Workflow123</span>
                 <PencilAltIcon
                   className="text-teal-800 h-8 w-auto sm:h-10"
                 />
