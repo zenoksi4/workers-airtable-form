@@ -5,6 +5,7 @@ account_id = "86bfa19df901d952b9f511b37d7ba396"
 workers_dev = true
 
 [vars]
+
 AIRTABLE_BASE_ID = "applzB7vrMnkgSGLg"
 AIRTABLE_TABLE_NAME = "courses"
 FORM_URL = "https://workers-airtable-form-3xt.pages.dev/"

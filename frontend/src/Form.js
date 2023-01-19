@@ -1,3 +1,4 @@
+
 const SERVERLESS_FN_URL = "https://courses.zenoken4ik.workers.dev/api/courses"
 const res = fetch("https://courses.zenoken4ik.workers.dev/api/courses")
 console.log(JSON.stringify(res))
