@@ -1,10 +1,12 @@
-const SERVERLESS_FN_URL = "https://workers-airtable-form.signalnerve.workers.dev/submit"
+const SERVERLESS_FN_URL = "https://courses.zenoken4ik.workers.dev/api/courses"
+const res = fetch("https://courses.zenoken4ik.workers.dev/api/courses")
+console.log(JSON.stringify(res))
 
 export default () => (
   <form action={SERVERLESS_FN_URL} method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
     <div>
       <label htmlFor="first_name" className="block text-sm font-medium text-warm-gray-900">
-        First name
+        First name1
       </label>
       <div className="mt-1">
         <input
